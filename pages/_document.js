@@ -1,4 +1,5 @@
 // pages/_document.tsx
+require('@newrelic/next')
 const newrelic = require("newrelic");
 import Document, {
  DocumentContext,
